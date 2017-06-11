@@ -1,8 +1,9 @@
-<form class="form-horizontal">
+<form action="add.php" method="post" class="form-horizontal"> 
+<!-- <form class="form-horizontal"> -->
+
 <fieldset>
 
 <!-- Form Name -->
-<legend><?php echo $page->legend; ?></legend>
 
 <!-- Text input-->
 <div class="form-group">
@@ -31,9 +32,10 @@
 
 <div class="form-group">
   <div class="col-md-8">
-    <button id="submittask" name="submittask" class="btn btn-success">Add</button>
+    <button id="submittask" name="submittask" class="btn btn-success">Add</button>  
   </div>
 </div>
+
 
 </fieldset>
 </form>
